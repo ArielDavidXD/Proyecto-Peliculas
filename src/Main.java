@@ -5,9 +5,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("\n=== \uD83C\uDFAC MOVIE CONNECT ===");
         Scanner sc = new Scanner(System.in);
         SistemaPrincipal sistema = new SistemaPrincipal();
         DatosPrueba.cargar(sistema);
+
 
         int opcion;
 

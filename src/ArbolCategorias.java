@@ -21,7 +21,6 @@ public class ArbolCategorias {
     public void insertarCategoria(String nombreCategoria){
         NodoArbol nodoNuevo = new NodoArbol(nombreCategoria);
         raiz.agregarCategoria(nodoNuevo);
-        System.out.println("Categoria agregada: " + nodoNuevo.getCategoria());
     }
 
     private NodoArbol buscarCategoria(NodoArbol actual, String dato) {
